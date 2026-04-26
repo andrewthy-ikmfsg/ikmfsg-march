@@ -943,6 +943,23 @@
             </form>
         </section>
 
+        <!-- COMMENTS -->
+        <section id="comments" aria-labelledby="comments-heading" style="background:var(--black-2);padding:80px 0;">
+            <div style="max-width:860px;margin:0 auto;padding:0 24px;">
+                <h2 id="comments-heading" style="font-family:var(--font-display);font-size:clamp(2rem,5vw,3.5rem);color:var(--white);text-transform:uppercase;letter-spacing:0.05em;margin-bottom:40px;">Comments</h2>
+                <div id="disqus_thread"></div>
+                <script>
+                    (function() {
+                    var d = document, s = d.createElement('script');
+                    s.src = 'https://ikmf.disqus.com/embed.js';
+                    s.setAttribute('data-timestamp', +new Date());
+                    (d.head || d.body).appendChild(s);
+                    })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" style="color:var(--red);">comments powered by Disqus.</a></noscript>
+            </div>
+        </section>
+
     </main>
 
     <!-- FOOTER -->
